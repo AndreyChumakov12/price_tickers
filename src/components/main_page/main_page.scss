@@ -1,0 +1,18 @@
+.main__page{
+    z-index: 200;
+    position: absolute;
+    height: auto;
+    width: 90%;
+    left: 5%;
+    top: 12%;
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+}
+
+.main__content{
+    position: relative;
+    background:url(./../../img/background.jpg) no-repeat center;
+    width: 100%;
+    height: auto;
+
+}
