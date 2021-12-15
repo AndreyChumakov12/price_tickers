@@ -3,6 +3,8 @@ import Header from './header/header';
 import Cards from './cards/cards';
 import Footer from './footer/footer';
 
+
+
 function MainPade() {
     return(
         <div className="main__page">
