@@ -1,4 +1,4 @@
-.cards__wrapper{
+.lesson_cards__wrapper{
     display: flex;
     width: 95%;
     height: 580px;
@@ -8,23 +8,24 @@
     padding-bottom: 40px;
     overflow: hidden;
 }
-.cards__inner {
+.lesson_cards {
     height: 100%;
     width: 200%;
     display: flex;
 }
-.agent-title{
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-top: 20px;
-    writing-mode: vertical-rl;
+.add_lesson{
+    height:80px;
+    width:auto;
+    margin-top: 500px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
-    font-size: 110px;
-    line-height: 110px;
+    font-size: 60px;
     letter-spacing: 0.1em;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #1F2326;
-    
+    &:hover{
+        -webkit-text-fill-color: #1F2326;
+        -webkit-text-stroke: 2px #df414e;
+    } 
 }
