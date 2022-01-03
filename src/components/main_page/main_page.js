@@ -7,14 +7,14 @@ import Footer from './footer/footer';
 
 function MainPade() {
     return(
-        <div className="main__page">
+        <main className="main__page">
             <Header/>
             <div className="main__content">
-                <Cards/>
+                {/* <Cards/> */}
 
             </div>
             <Footer/>
-        </div>
+        </main>
     )
 }
 
